@@ -9,4 +9,4 @@ setInterval(function() {
       }
     })
     .catch(error => console.log('Error:', error));
-}, 250);
+}, 500);
