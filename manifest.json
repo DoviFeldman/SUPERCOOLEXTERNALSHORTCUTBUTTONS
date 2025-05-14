@@ -1,0 +1,12 @@
+{
+  "name": "ESP32 Button Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "http://192.168.0.7/*" // change this also (idk if im even doing the right kind of commenting for this coding language.)
+  ]
+}
